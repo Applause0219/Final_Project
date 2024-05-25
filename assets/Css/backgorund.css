@@ -1,0 +1,5 @@
+.background{
+    background-image: url("/assets/Images/bg_01.svg"), url("/assets/Images/bg_02.svg"), url("/assets/Images/bg_03.svg");
+    background-repeat: no-repeat;
+    /* background-position:center, center, center; */
+}
