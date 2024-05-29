@@ -25,15 +25,16 @@ nav{
     width:100%;
 
     background:white;
-    box-shadow: 0 0 1px rgba(0,0,0,0.8);
-
-    border-radius: 0px 0 70px  0px;
+    opacity: 0.9;
 }
 
 nav .logo{
     display: flex;
     align-items: center;
     margin: 0 24px;
+
+    background-color:white ;
+    opacity: 0.9;
 }
 
 .logo .menu-icon{
@@ -142,15 +143,18 @@ nav.open .sidebar{
 
 .overlay{
     position: fixed;
+    z-index: 100000;
     top:0;
     left: -100%;
     height: 1000vh;
     width: 200%;
     opacity: 0;
 
-    background: rgba(0,0,0,0.3);
+    background: rgba(0,0,0,0.4);
     transition: all 0.4s ease;
     pointer-events: none;
+    backdrop-filter: blur(5px);
+
 }
 
 nav.open ~ .overlay{
