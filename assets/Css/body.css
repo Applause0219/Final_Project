@@ -1,7 +1,5 @@
 body{
     margin: 0px;
     min-height: 100%;
-    /* background: #ececec; */
-    background-image: url(/assets/images/bg-02.jpg);
-    background-repeat: repeat;
+    font-family: "Poppins", sans-serif;
 }
