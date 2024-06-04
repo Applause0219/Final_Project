@@ -13,11 +13,11 @@
 .storename{
     display: flex;
 }
-.mark{
+.business-mark{
     display: flex;
     align-items: center;
 }
-.mark i{
+.business-mark i{
     font-size: 35px;
     margin-right: 5px;
     color: #707070;
@@ -49,7 +49,7 @@ nav{
     width:100%;
 
     background:white;
-    opacity: 0.8;
+    opacity: 1;
 }
 nav .navtop{
     width: 95%;
@@ -63,7 +63,7 @@ nav .logo{
     margin: 0 24px;
 
     background-color:white ;
-    opacity: 0.9;
+    opacity: 1;
 }
 
 nav .logo img{
