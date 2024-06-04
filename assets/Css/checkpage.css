@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #ececec;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-grow: 1;
+    padding-top: 100px;
+    /* 確保內容不會覆蓋到導航欄 */
+}
+
+.main ul {
+    display: flex;
+}
+
+.main ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.main ul li .icon {
+    font-size: 35px;
+    margin: 0 60px;
+    color: black;
+}
+
+.main ul li .text {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.main ul li .progress {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: darkgray;
+    margin: 14px 0;
+    display: grid;
+    place-items: center;
+    color: black;
+    position: relative;
+    cursor: pointer;
+}
+
+.main .progress::after {
+    content: " ";
+    position: absolute;
+    width: 125px;
+    height: 5px;
+    background-color: darkgray;
+    right: 30px;
+}
+
+.main .one::after {
+    width: 0;
+    height: 0;
+}
+
+.main ul li .progress .ibx {
+    display: none;
+}
+
+.main ul li .progress p {
+    font-size: 13px;
+}
+
+.main ul li .active {
+    background-color: darkgray;
+}
+
+.main li .active::after {
+    background-color: darkgray;
+}
+
+.main ul li .active p {
+    display: none;
+}
+
+.main ul li .active .ibx {
+    font-size: 20px;
+    display: flex;
+}
+
+.product-info {
+    width: 65%;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.product-info table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-info th,
+.product-info td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-info th {
+    background-color: #f4f4f4;
+}
+
+.product-info img.product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.product-info .product-details {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.product-info .product-details p {
+    padding: 40px 20px;
+}
+
+.product-info .quantity-input {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.main .bx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.checkout-button button {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 30px;
+}
+
+.checkout-button button:hover {
+    background-color: darkgray;
+}
+
+.checkout-button button:active {
+    background-color: darkgray;
+}
+
+footer {
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 0 0;
+    text-align: center;
+    margin-top: auto;
+}

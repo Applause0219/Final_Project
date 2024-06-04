@@ -1,0 +1,5 @@
+.body-background{
+    background-image: url(../../assets/Images/bg-gradient.png);
+    background-repeat: repeat;  
+    /* background-position: center center; */
+}
