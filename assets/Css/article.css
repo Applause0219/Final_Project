@@ -63,7 +63,7 @@ article{
 .part0-content{
     display: flex;
     justify-content: center;
-    /* max-width: 30%; */
+    max-width: 70%;
     margin-top: 10px;
     /* margin-left: 10px;
     margin-right: 10px; */
@@ -116,7 +116,7 @@ article{
     
 }
 
-.introduction{
+.part1 .introduction{
     display: flex;
     flex-direction: column;
     max-width: 50%;
@@ -126,11 +126,23 @@ article{
     justify-content: center;
     
 }
-.introduction p{
-    max-width: 70%;
-    max-height: 80%;
+.part1 .introduction .part0-title{
+    width: 70%;
 }
 
+.part1 .introduction .part0-title p{
+    width: 100%;
+    text-align: left;
+    display: flex;
+}
+
+.part1 .introduction .part0-content{
+    width: 70%;
+    
+}
+.part1 .introduction .part0-content p{
+    margin: 0;
+}
 
 .shopping-button{
     display: flex;
