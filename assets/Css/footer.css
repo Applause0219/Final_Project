@@ -10,7 +10,7 @@ footer{
 
     padding: 10px 20px 10px;
 
-    font-family: "Poppins", sans-serif;
+    font-family:"Roboto Mono", monospace;
     color: #707070;
 }
 
@@ -53,7 +53,7 @@ footer{
 }
 
 .footerbottom p{
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto Mono", monospace;
     color: #707070;
 }
 

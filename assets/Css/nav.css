@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: 辰宇落雁體 ;
     src: url(../Fonts/ChenYuluoyan-Thin-Monospaced.ttf);
-}
+} */
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@400..700&family=Kreon:wght@300..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat+Brush&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Kreon:wght@300..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sevillana&display=swap');
 *{
@@ -20,6 +20,9 @@
 
 .storename{
     display: flex;
+}
+.storename span{
+    font-family: "Sevillana", cursive;
 }
 .business-mark{
     display: flex;
@@ -41,8 +44,7 @@ span.logo-name1{
     font-size:20px;
     /* font-weight: 500; */
     text-align: center;
-    /* font-family: "Sevillana", cursive; */
-    
+    font-family: "Sevillana", cursive;;
 }
 
 nav{

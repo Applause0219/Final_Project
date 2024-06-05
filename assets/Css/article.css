@@ -28,6 +28,9 @@ article{
     /* font-size: 50px; */
 }
 .part0-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
     animation: fade 3s linear 0s;
     /* animation: rightIn 2s linear 0s ; */
 }
@@ -56,6 +59,8 @@ article{
     text-align: left;
 }
 .part0-content{
+    display: flex;
+    justify-content: center;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
