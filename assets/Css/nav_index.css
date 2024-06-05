@@ -20,6 +20,8 @@
 
 .storename{
     display: flex;
+    position: fixed;
+    left: 46%;
 }
 .storename span{
     font-family: "Sevillana", cursive;
@@ -31,7 +33,7 @@
 .business-mark i{
     font-size: 35px;
     margin-right: 5px;
-    color: #707070;
+    color: white;
 }
 
 span.logo-name1{
@@ -40,7 +42,7 @@ span.logo-name1{
     align-items: center;
     left: 40%;
     z-index: 3;
-    color:#707070;
+    color:white;
     font-size:20px;
     /* font-weight: 500; */
     text-align: center;
@@ -59,7 +61,7 @@ nav{
     height: 70px;
     width:100%;
 
-    background:white;
+    background:black;
     opacity: 1;
 }
 nav .navtop{
@@ -73,7 +75,7 @@ nav .logo{
     align-items: center;
     margin: 0 24px;
 
-    background-color:white ;
+    background-color:black ;
     opacity: 1;
 }
 
@@ -82,7 +84,7 @@ nav .logo img{
     width: 3;
 }
 .logo .menu-icon{
-    color:#707070;
+    color:white;
     font-size: 35px;
     margin-right: 14px;
     cursor: pointer;
@@ -93,7 +95,7 @@ nav .logo img{
     /* position: fixed; */
     /* left: 40%; */
     /* z-index: 3; */
-    color:#707070;
+    color:white;
     font-size:28px;
     font-weight: 500;
     text-align: center;
@@ -112,7 +114,7 @@ nav .sidebar{
 
     padding: 20px 0;
 
-    background-color: white;
+    background-color: black;
     box-shadow: 0 5 10px rgba(250,250,250,0.3);
     transition: all 0.4s ease;
     backdrop-filter: blur(5px);
@@ -156,25 +158,25 @@ nav.open .sidebar{
     text-decoration: none;
 }
 .list .sub-nav-link:hover{
-    background-color: black;
+    background-color: white;
 }
 .list .sub-nav-link:hover .sub-list{
-    color: white;
+    color: black;
 }
 
 .list .nav-link:hover{
-    background-color: black;
+    background-color: white;
 
 }
 .nav-link .icon{
     margin-right: 14px;
     font-size: 20px;
-    color: #707070;
+    color: white;
 }
 
 .nav-link .link{
     font-size: 16px;
-    color:#707070;
+    color:white;
     font-weight: 400;
 
 }
@@ -182,16 +184,16 @@ nav.open .sidebar{
 .sub-list{
     font-size: 13px;
     padding-left: 50px;
-    color: #707070;
+    color: white;
 }
 
 .lists .nav-link:hover .icon,
 .lists .nav-link:hover .link{
-    color: white;
+    color: black;
 }
 .bottom-content .nav-link:hover .icon,
 .bottom-content .nav-link:hover .link{
-    color: white;
+    color: black;
 }
 
 .overlay{

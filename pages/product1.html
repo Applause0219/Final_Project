@@ -14,14 +14,13 @@
     <link rel="stylesheet" href="../assets/Css/search.css">
     <!-- Boxicon css -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="./assets/Js/sidebar.js"></script>
+    <script src="../assets/Js/sidebar.js"></script>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
 </head>
 <body>
-    <div class="bodyy">
     <nav>
         <div class="navtop">
             <div class="logo">
@@ -125,53 +124,53 @@
     <section class="overlay"></section>
 
     <div class="main-content">
-    <div class="product-container">
-        <div class="product-image">
-            <img src="../assets/Images/ring01.jpg" alt="Black Space Ring">
+        <div class="product-container">
+            <div class="product-image">
+                <img src="../assets/Images/ring01.jpg" alt="Black Space Ring">
+            </div>
+            <div class="product-details">
+                <h1>銀河星宇戒指 </h1>
+                <div class="price-section">
+                    <span class="original-price">NT$400</span>
+                </div>
+                <div class="rating">
+                    <span class="stars">★★★★★</span>
+                    <span class="reviews">5.0 分 | 2 個評價</span>
+                </div>
+                <div class="preorder-info">
+                    <p>預購商品預計20-40天出貨，預計出貨日：2024/7月</p>
+                </div>
+                <div class="quantity-selector">
+                    <label for="quantity">數量</label>
+                    <input type="number" id="quantity" value="1" min="1">
+                </div>
+
+                <div class="purchase-buttons">
+                    <!-- Add to Cart Form -->
+                    <form action="../pages/cart1.html" method="POST" class="purchase-form" id="add-to-cart-form">
+                        <input type="hidden" name="product_id" value="ring01">
+                        <input type="hidden" name="product_name" value="銀河星宇戒指">
+                        <input type="hidden" name="price" value="400">
+                        <input type="hidden" name="size" id="cart-size">
+                        <input type="hidden" name="quantity" id="cart-quantity">
+                        <button type="submit" class="add-to-cart">加入購物車</button>
+                    </form>
+
+                    <!-- Buy Now Form -->
+                    <form action="../pages/cart1.html" method="POST" class="purchase-form" id="buy-now-form">
+                        <input type="hidden" name="product_id" value="ring01">
+                        <input type="hidden" name="product_name" value="銀河星宇戒指">
+                        <input type="hidden" name="price" value="400">
+                        <input type="hidden" name="size" id="buy-size">
+                        <input type="hidden" name="quantity" id="buy-quantity">
+                        <button type="submit" class="buy-now">立即購買</button>
+                    </form>
+
+                    <!-- Show Reviews Button -->
+                    <button class="show-reviews">查看評論</button>
+                </div>
+            </div>
         </div>
-        <div class="product-details">
-            <h1>銀河星宇戒指 </h1>
-            <div class="price-section">
-                <span class="original-price">NT$400</span>
-            </div>
-            <div class="rating">
-                <span class="stars">★★★★★</span>
-                <span class="reviews">5.0 分 | 2 個評價</span>
-            </div>
-            <div class="preorder-info">
-                <p>預購商品預計20-40天出貨，預計出貨日：2024/7月</p>
-            </div>
-            <div class="quantity-selector">
-                <label for="quantity">數量</label>
-                <input type="number" id="quantity" value="1" min="1">
-            </div>
-
-            <div class="purchase-buttons">
-                <!-- Add to Cart Form -->
-                <form action="/add-to-cart" method="POST" class="purchase-form" id="add-to-cart-form">
-                    <input type="hidden" name="product_id" value="ring01">
-                    <input type="hidden" name="product_name" value="銀河星宇戒指">
-                    <input type="hidden" name="price" value="400">
-                    <input type="hidden" name="size" id="cart-size">
-                    <input type="hidden" name="quantity" id="cart-quantity">
-                    <button type="submit" class="add-to-cart">加入購物車</button>
-                </form>
-
-                <!-- Buy Now Form -->
-                <form action="/buy-now" method="POST" class="purchase-form" id="buy-now-form">
-                    <input type="hidden" name="product_id" value="ring01">
-                    <input type="hidden" name="product_name" value="銀河星宇戒指">
-                    <input type="hidden" name="price" value="400">
-                    <input type="hidden" name="size" id="buy-size">
-                    <input type="hidden" name="quantity" id="buy-quantity">
-                    <button type="submit" class="buy-now">立即購買</button>
-                </form>
-
-                <!-- Show Reviews Button -->
-                <button class="show-reviews">查看評論</button>
-            </div>
-        </div>
-    </div>
     </div>
 
     
@@ -249,6 +248,5 @@
         </div>
     </footer>
     <script src="../assets/Js/product1.js"></script>
-</div>
 </body>
 </html>
