@@ -1,5 +1,7 @@
 .body-background{
-    background-image: url(../../assets/Images/bg-gradient.png);
-    background-repeat: repeat;  
-    /* background-position: center center; */
+    background-image: url(../../assets/Images/bg-grass.jpg);
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
 }
