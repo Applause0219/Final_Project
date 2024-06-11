@@ -171,3 +171,37 @@ article{
     text-decoration: none;
     color: #fff;
 }
+
+.next-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 10%;
+    margin-left: 50%;
+    /* padding-left: 10px; */
+    
+    line-height: 40px;
+    width: 15%;
+    cursor: pointer;
+
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 300px;
+    transition: all .3s linear;
+}
+
+
+.next-button:hover{
+    background-color: black;
+    /* color: black; */
+    /* border: 2px solid black; */
+}
+
+
+.next-button a{
+
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
