@@ -49,7 +49,7 @@
                     <ul>
                         <li class="list">
                             <a href="#" class="nav-link">
-                                <i class="bx bx-home icon" ></i>
+                                <i class='bx bx-home icon'></i>
                                 <span class="link">Home</span>
                             </a>
                         </li>
@@ -131,7 +131,7 @@
             </header>
 
             <!-- 表單開始 -->
-            <form action="YOUR_BACKEND_URL" method="POST">
+            <form action="checkpage.html" method="POST">
                 <!-- 商品資訊區 -->
                 <div class="product-info">
                     <table>
@@ -170,43 +170,35 @@
                         <h2>選擇送貨及付款方式</h2>
                         <div class="info-content">
                             <label for="location">送貨地點:</label>
-                            <select id="location" name="location">
-                                <option value="taiwan">台灣</option>
+                            <select name="location" id="location">
+                                <option value="store">門市取貨</option>
+                                <option value="home">宅配</option>
                             </select>
-                            
-                            <label for="shipping-method">送貨方式:</label>
-                            <select id="shipping-method" name="shipping-method">
-                                <option value="711-pickup">7-11 取貨付款</option>
-                                <option value="family-pickup">全家 取貨付款</option>
-                            </select>
-                            
-                            <label for="payment-method">付款方式:</label>
-                            <select id="payment-method" name="payment-method">
-                                <option value="711-pickup-payment">7-11 取貨付款 (限本島)</option>
-                                <option value="family-pickup-payment">全家 取貨付款 (限本島)</option>
-                                <option value="credit-card">信用卡付款 (限本島)</option>
+
+                            <label for="payment">付款方式:</label>
+                            <select name="payment" id="payment">
+                                <option value="credit-card">信用卡</option>
+                                <option value="atm">ATM 轉帳</option>
+                                <option value="cash-on-delivery">貨到付款</option>
                             </select>
                         </div>
                     </div>
 
-                    <!-- 訂單資訊 -->
-                    <div class="order-info">
+                    <!-- 訂單資訊區 -->
+                    <div class="order-info"> 
                         <h2>訂單資訊</h2>
                         <div class="order-details">
-                            <p>小計: <span id="subtotal">NT$350</span></p>
-                            <p>運費: <span id="shipping-cost">免運</span></p>
-                            <p>使用優惠代碼: <span id="discount-code">無</span></p>
-                            <p>合計: <span id="total">NT$350</span></p>
+                            <p>商品小計: <span>NT$350</span></p>
+                            <p>運費: <span>NT$60</span></p>
+                            <p>總計: <span>NT$410</span></p>
                         </div>
-                        <button type="submit" id="checkout-btn" class="checkout">前往結帳</button>
+                        <input type="submit" id="checkout-btn" value="結帳">
                     </div>
                 </div>
             </form>
-            <!-- 表單結束 -->
         </div>
     </div>
-
-    <footer>
+    <footer class="footer">
         <div class="footer-container">
             <div class="wrapper">
                 <div class="footer-button">
@@ -245,6 +237,6 @@
             <p>Copyright &copy;2024</p>
         </div>
     </footer>
-    <script src="../assets/Js/cart1.js"></script>
+    <script src="../assets/Js/product1.js"></script>
 </body>
 </html>
