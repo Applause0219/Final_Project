@@ -20,6 +20,8 @@
 
 .storename{
     display: flex;
+    position: fixed;
+    left: 46%;
 }
 .storename span{
     font-family: "Sevillana", cursive;
@@ -40,7 +42,7 @@ span.logo-name1{
     align-items: center;
     left: 40%;
     z-index: 3;
-    color:#707070;
+    color: #707070;
     font-size:20px;
     /* font-weight: 500; */
     text-align: center;
@@ -61,6 +63,8 @@ nav{
 
     background:white;
     opacity: 1;
+
+    box-shadow:  0 2px 4px rgba(0,0,0,0.2 );
 }
 nav .navtop{
     width: 95%;

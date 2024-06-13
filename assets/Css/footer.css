@@ -4,7 +4,7 @@ footer{
 }
 .footer-container{
     background-color: white;
-    opacity: 1;
+    /* opacity: 1; */
     width: 100%;
     height: fit-content;
 
@@ -12,6 +12,9 @@ footer{
 
     font-family:"Roboto Mono", monospace;
     color: #707070;
+
+    /* border-top: 4px rgba(0,0,0,0.1); */
+    box-shadow:  5px 5px 10px 1px rgba(0,0,0,0.5);
 }
 
 .wrapper{
@@ -19,7 +22,7 @@ footer{
     justify-content: center;
 }
 
-.footerNav{
+/* .footerNav{
     margin: 30px 0;
 }
 
@@ -42,88 +45,90 @@ footer{
 
 .footerNav ul li a:hover{
     opacity: 1;
-}
+} */
 
-.footerbottom{
-    background-color: white;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 20px ;
-    opacity:1;
-}
-
-.footerbottom p{
-    font-family: "Roboto Mono", monospace;
-    color: #707070;
-}
 
 /* 社群ICON設計 */
 
 .wrapper .footer-button{
-    display: inline-block;
-    height: 60px;
-    width: 60px;
-    float: left;
+    display: flex;
+    height: 40px;
+    width: 40px;
     margin: 0 5px;
     overflow: hidden;
     /*  */
-    background: #fff;
-    border-radius: 50px;
+    background: white;
+    border-radius: 500px;
     cursor: pointer;
     /*  */
-    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
-    transition:all 0.3s ease-out;
+    /* box-shadow: 0px 10px 10px rgba(0,0,0,0.1); */
+    transition:all 0.3s ease-out; 
 }
 .wrapper .footer-button:hover{
-    width: 200px;
+    width: 150px;
 }
 
+
+
 .wrapper .footer-button .social-icon{
-    display: inline-block;
-    height: 60px;
-    width: 60px;
-    text-align: center;
+    padding-left: 20%;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    /* justify-content: center; */
     border-radius: 50px;
-    box-sizing: border-box;
     /*  */
-    line-height: 60px;
-    transition: all 0.3s ease-out;
+    transition: all 0.6s ease-out;
 }
 .wrapper .footer-button:nth-child(1):hover .social-icon{
     /*  */
     background: #4267B2;
+    width: 40px;
+    padding-left: 5%;
 }
 .wrapper .footer-button:nth-child(2):hover .social-icon{
     /*  */
     background: #1DA1F2;
+    width: 40px;
+    padding-left: 5%;
 }
 .wrapper .footer-button:nth-child(3):hover .social-icon{
     /*  */
     background: #E1306C;
+    width: 40px;
+    padding-left: 5%;
 }
 .wrapper .footer-button:nth-child(4):hover .social-icon{
     /*  */
     background: #333;
+    width: 40px;
+    padding-left: 5%;
 }
 .wrapper .footer-button:nth-child(5):hover .social-icon{
     /*  */
     background: #ff0000;
+    width: 40px;
+    padding-left: 5%;
 }
 
 .wrapper .footer-button .social-icon i{
     font-size: 25px;
-    line-height: 60px;
+    justify-content: center;
     transition: all 0.3s ease-out;
 }
 .wrapper .footer-button:hover .social-icon i{
     color: #fff;
 }
 .wrapper .footer-button span{
-    font-size: 20px;
+    display: flex;
+    align-items: center;
+
+    font-size: 15px;
     font-weight: 500;
-    line-height: 60px;
-    margin-left: 10px;
+    margin-left: 20px;
     transition: all 0.3s ease-out;
+
 }
 .wrapper .footer-button:nth-child(1):hover span{
     /*  */
@@ -139,9 +144,31 @@ footer{
 }
 .wrapper .footer-button:nth-child(4):hover span{
     /*  */
-    color: #333;
+    color: white;
 }
 .wrapper .footer-button:nth-child(5):hover span{
     /*  */
     color: #ff0000;
+}
+
+.footerbottom{
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px ;
+    opacity:1;
+
+    
+}
+
+.footerbottom p{
+    font-family: "Roboto Mono", monospace;
+    color: #707070;
+
+    transition:all 0.3s ease-out;
+}
+
+.footerbottom:hover p{
+
+    color: black;
 }
