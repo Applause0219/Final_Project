@@ -9,7 +9,10 @@
 }
 
 .bgcol {
-    background-color: #ececec;
+    background-color: #ffffff;
+
+    background-image: radial-gradient(#000000 0.5px, #ffffff 0.5px);
+    background-size: 10px 10px;
 }
 
 .member {
@@ -50,7 +53,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     border-radius: 2rem;
-    background-color: #0000000b;
+    background-color: rgb(238, 238, 238);
     box-sizing: border-box;
     box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.16);
     padding: 0.25rem;

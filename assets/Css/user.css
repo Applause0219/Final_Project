@@ -6,9 +6,10 @@
     /* font-family: Arial, Helvetica, sans-serif; */
 }
 
-/* .bgcol {
-    background-color: white;
-} */
+.bgcol {
+    background-image: radial-gradient(#000000 0.5px, #ffffff 0.5px);
+    background-size: 10px 10px;
+}
 
 .login-wrapper {
     padding: 0 20px 0 20px;
@@ -35,7 +36,7 @@
     width: 900px;
     height:550px;
     border-radius: 20px;
-    background: white;
+    background: #fff;
     padding: 0px;
     box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
 }
