@@ -9,7 +9,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-color: #ececec;
+    background-color: white;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -124,7 +124,7 @@ body {
 }
 
 .product-info th {
-    background-color: #f4f4f4;
+    background-color: white;
 }
 
 .product-info img.product-image {
