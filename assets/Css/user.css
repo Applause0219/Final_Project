@@ -6,9 +6,9 @@
     /* font-family: Arial, Helvetica, sans-serif; */
 }
 
-.bgcol {
-    background-color: #ececec;
-}
+/* .bgcol {
+    background-color: white;
+} */
 
 .login-wrapper {
     padding: 0 20px 0 20px;
@@ -23,7 +23,7 @@
 }
 
 .side-image {
-    background-image: url('../Images/earring07.jpg');
+    background-image: url('../Images/girl2-1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -35,7 +35,7 @@
     width: 900px;
     height:550px;
     border-radius: 20px;
-    background: #fff;
+    background: white;
     padding: 0px;
     box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
 }

@@ -4,7 +4,7 @@ footer{
 }
 .footer-container{
     background-color: white;
-    opacity: 1;
+    /* opacity: 1; */
     width: 100%;
     height: fit-content;
 
@@ -12,6 +12,9 @@ footer{
 
     font-family:"Roboto Mono", monospace;
     color: #707070;
+
+    /* border-top: 4px rgba(0,0,0,0.1); */
+    box-shadow:  5px 5px 10px 1px rgba(0,0,0,0.5);
 }
 
 .wrapper{
