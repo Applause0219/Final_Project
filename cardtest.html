@@ -10,14 +10,24 @@
     <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front">
+                <div class="ig_outer_border">
+                    <div class="ig_inner_border">
+                        <img src="./assets/Images/leo.png" alt="個人照">
+                    </div>
+                </div>
                 <p class="title">鍾昌宇</p>
                 <p>Hover Me</p>
             </div>
             <div class="flip-card-back">
-                <p class="title">BACK</p>
-                <p>Leave Me</p>
+                <p class="title">心得</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate vel sint nam consectetur, harum voluptas corrupti fugit. Tempore ut voluptas temporibus reiciendis quam totam omnis? Accusantium placeat possimus officia corrupti.</p>
             </div>
         </div>
     </div>
+    <script>
+        document.querySelector('.flip-card').addEventListener('click', function() {
+            this.classList.toggle('flip');
+        });
+    </script>
 </body>
 </html>
