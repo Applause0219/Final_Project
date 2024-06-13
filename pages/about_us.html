@@ -1,29 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>手鍊 | BRACELET</title>
-    <!--Nav 引入資訊-->
-    <link rel="stylesheet" href="../assets/Css/nav.css">
-    <link rel="stylesheet" href="../assets/Css/footer.css">
-    <link rel="stylesheet" href="../assets/Css/search.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/Css/nav_index.css">
+    <link rel="stylesheet" href="../assets/Css/body.css">
+    <link rel="stylesheet" href="../assets/Css/article.css">
+    <link rel="stylesheet" href="../assets/Css/footer_index.css">
+    <link rel="stylesheet" href="../assets/Css/slider.css">
+    <link rel="stylesheet" href="../assets/Css/bg.css">
+    <link rel="stylesheet" href="../assets/Css/search-index.css">
+    <link rel="stylesheet" href="../assets/Css/about_us.css">
     <!-- Boxicon css -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="../assets/Js/sidebar.js"></script>
-    <!--商品列表引入資訊-->
-    <link rel="stylesheet" href="../assets/Css/productlist.css">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-    <div class="bgcol">
+    <div class="body-background">
         <nav>
             <div class="navtop">
                 <div class="logo">
                     <i class='bx bx-menu-alt-left menu-icon'></i>              <!-- <div class="logo-name">MENU</div> -->
                 </div>
                 <div class="storename">
-                    <div class="business-mark"><i class='bx bxl-gitlab menu-icon'></i></div>
+                    <div class="business-mark"><i class='bx bxl-sketch' ></i></div>
                     <span class="logo-name1">SwDW</span>
                 </div>
                     <div class="search-box">
@@ -53,7 +54,7 @@
                                 </a>
                             </li>
                             <li class="list">
-                                <a href="login.html" class="nav-link">
+                                <a href="../pages/login.html" class="nav-link">
                                     <i class='bx bx-user icon'></i>
                                     <span class="link">User</span>
                                 </a>
@@ -65,29 +66,29 @@
                                     <span class='bx bx-chevron-down sub-icon'></span>
                                 </a>
                                 <ul class="show">
-                                    <a href="all.html" class="sub-nav-link">
+                                    <a href="../pages/all.html" class="sub-nav-link">
                                         <li class="list">
-                                            <span class="sub-list">所有商品</span>
+                                            <span class="sub-list">ALL</span>
                                         </li>
                                     </a>
-                                    <a href="bracelet.html" class="sub-nav-link">
+                                    <a href="../pages/bracelet.html" class="sub-nav-link">
                                         <li class="list">
-                                            <span class="sub-list">手環</span>
+                                            <span class="sub-list">Bracelet</span>
                                         </li>
                                     </a>
-                                    <a href="necklace.html" class="sub-nav-link">
+                                    <a href="../pages/necklace.html" class="sub-nav-link">
                                         <li class="list">
-                                            <span class="sub-list">項鍊</span>
+                                            <span class="sub-list">Necklace</span>
                                         </li>
                                     </a>
-                                    <a href="ring.html" class="sub-nav-link">
+                                    <a href="../pages/ring.html" class="sub-nav-link">
                                         <li class="list">
-                                            <span class="sub-list">戒指</span>
+                                            <span class="sub-list">Ring</span>
                                         </li>
                                     </a>
-                                    <a href="earring.html" class="sub-nav-link">
+                                    <a href="../pages/earring.html" class="sub-nav-link">
                                         <li class="list">
-                                            <span class="sub-list">耳環</span>
+                                            <span class="sub-list">Earring</span>
                                         </li>
                                     </a>
                                 </ul>
@@ -118,71 +119,30 @@
             </div>
         </nav>
         <section class="overlay"></section>
-
-        <!--商品列表-->
-        <div class="wrapper">
-            <section class="shop" id="shop">
-                <div class="container">
-
-                    <div class="product-navigation">
-                        <ul>
-                            <li><a href="all.html">全部商品 | ALL</a></li>
-                            <li><a href="bracelet.html">手鍊 | BRACELET</a></li>
-                            <li><a href="necklace.html">項鍊 | NECKLACE</a></li>
-                            <li><a href="ring.html">戒指 | RING</a></li>
-                            <li><a href="earring.html">耳環 | EARRING</a></li>
-                        </ul>
+        <article>
+            <div class="wrapper-card">
+                <div class="card front-face">
+                    <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+                </div>
+                <div class="card back-face">
+                    <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+                    <div class="info">
+                        <div class="title-card">
+                            CodingLab
+                        </div>
+                        <p>
+                            User interface designer and <br>front-end developer
+                        </p>
                     </div>
-
-                    <div class="title-container">
-                        <h2>手鍊 | BRACELET</h2>
-                    </div>
-                    <div class="grid-container">
-                        <div class="card">
-                            <img src="../assets/Images/bracelet01.jpg" alt="">
-                            <a href="#"><h4>銀線光影手鍊</h4></a>
-                            <h5>$1000</h5>
-                            <a href="#" class="card-button"><i class='bx bx-cart'></i></a>
-                        </div>
-
-                        <div class="card">
-                            <img src="../assets/Images/bracelet02.jpg" alt="">
-                            <a href="#"><h4>魅力光影手鍊</h4></a>
-                            <h5>$1000</h5>
-                            <a href="#" class="card-button"><i class='bx bx-cart'></i></a>
-                        </div>
-
-                        <div class="card">
-                            <img src="../assets/Images/bracelet03.jpg" alt="">
-                            <a href="#"><h4>典雅光影手鍊</h4></a>
-                            <h5>$900</h5>
-                            <a href="#" class="card-button"><i class='bx bx-cart'></i></a>
-                        </div>
-
-                        <div class="card">
-                            <img src="../assets/Images/bracelet04.jpg" alt="">
-                            <a href="#"><h4>銀珠柔光手鍊</h4></a>
-                            <h5>$900</h5>
-                            <a href="#" class="card-button"><i class='bx bx-cart'></i></a>
-                        </div>
-
-                        <div class="card">
-                            <img src="../assets/Images/bracelet05.jpg" alt="">
-                            <a href="#"><h4>曜石繫情手鍊</h4></a>
-                            <h5>$1200</h5>
-                            <a href="#" class="card-button"><i class='bx bx-cart'></i></a>
-                        </div>
-
-                        <div class="card">
-                            <img src="../assets/Images/bracelet06.jpg" alt="">
-                            <a href="#"><h4>浪漫際遇手鍊</h4></a>
-                            <h5>$1200</h5>
-                            <a href="#" class="card-button"><i class='bx bx-cart'></i></a>
-                        </div>
-                    </div>
-            </section>
-        </div>
-
+                    <ul>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </article>
         <footer>
             <div class="footer-container">
                 <div class="wrapper">
@@ -223,7 +183,5 @@
             </div>
         </footer>
     </div>
-    <script src="../assets/Js/tocart.js"></script>
 </body>
 </html>
-
