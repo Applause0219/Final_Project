@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
         reviewForm.reset();
     });
 });
-document.addEventListener('DOMContentLoaded', function() {
+/*document.addEventListener('DOMContentLoaded', function() {
     const addToCartButton = document.querySelector('.add-to-cart');
     const buyNowButton = document.querySelector('.buy-now');
 
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
     buyNowButton.addEventListener('click', function() {
         window.location.href = '../pages/cart1.html';
     });
-});
+});*/
 document.addEventListener('DOMContentLoaded', function() {
     const addToCartForm = document.getElementById('add-to-cart-form');
     const buyNowForm = document.getElementById('buy-now-form');
