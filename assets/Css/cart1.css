@@ -8,9 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    background-image: radial-gradient(#000000 0.5px, #ffffff 0.5px);
-    background-size: 10px 10px;
+    background-image: url("../Images/bg-03.jpg");
 }
 
 .main-content {
@@ -59,9 +57,9 @@ header {
     font-size: 14px;
 }
 
-.list {
+/*.list {
     margin-top: 20px;
-}
+}*/
 
 .item {
     display: flex;
