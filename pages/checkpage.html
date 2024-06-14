@@ -26,31 +26,32 @@
                     <i class='bx bx-menu-alt-left menu-icon'></i>              <!-- <div class="logo-name">MENU</div> -->
                 </div>
                 <div class="storename">
-                    <div class="business-mark"><i class='bx bxl-gitlab menu-icon'></i></div>
+                    <div class="business-mark"><i class='bx bxl-sketch' ></i></div>
                     <span class="logo-name1">SwDW</span>
                 </div>
-                <div class="search-box">
-                    <input type="text" placeholder="Type to search..">
-                    <div class="search-button">
-                        <i class='bx bx-search'></i>
+                    <div class="search-box">
+                        <input type="text" placeholder="Type to search..">
+                        <div class="search-button">
+                            <i class='bx bx-search' ></i>
+                        </div>
+                        <div class="cancel-button">
+                            <i class='bx bx-x'></i>
+                        </div>
                     </div>
-                    <div class="cancel-button">
-                        <i class='bx bx-x'></i>
-                    </div>
-                </div>
-                <script src="../assets/Js/searchbox.js"></script>
+                <script src="./assets/Js/searchbox.js"></script>
             </div>
             <div class="sidebar">
                 <div class="logo">
                     <i class='bx bx-menu-alt-left menu-icon'></i>
                     <span class="logo-name">MENU</span>
+                    <!-- <div class="logo-name">MENU</div> -->
                 </div>
                 <div class="sidebar-content">
                     <div class="lists">
                         <ul>
                             <li class="list">
                                 <a href="../index.html" class="nav-link">
-                                    <i class="bx bx-home-alt icon"></i>
+                                    <i class="bx bx-home-alt icon" ></i>
                                     <span class="link">Home</span>
                                 </a>
                             </li>
@@ -69,34 +70,34 @@
                                 <ul class="show">
                                     <a href="../pages/all.html" class="sub-nav-link">
                                         <li class="list">
-                                            <span class="sub-list">所有商品</span>
+                                            <span class="sub-list">ALL</span>
                                         </li>
                                     </a>
                                     <a href="../pages/bracelet.html" class="sub-nav-link">
                                         <li class="list">
-                                            <span class="sub-list">手環</span>
+                                            <span class="sub-list">Bracelet</span>
                                         </li>
                                     </a>
                                     <a href="../pages/necklace.html" class="sub-nav-link">
                                         <li class="list">
-                                            <span class="sub-list">項鍊</span>
+                                            <span class="sub-list">Necklace</span>
                                         </li>
                                     </a>
                                     <a href="../pages/ring.html" class="sub-nav-link">
                                         <li class="list">
-                                            <span class="sub-list">戒指</span>
+                                            <span class="sub-list">Ring</span>
                                         </li>
                                     </a>
                                     <a href="../pages/earring.html" class="sub-nav-link">
                                         <li class="list">
-                                            <span class="sub-list">耳環</span>
+                                            <span class="sub-list">Earring</span>
                                         </li>
                                     </a>
                                 </ul>
                             </li>
                             <li class="list">
                                 <a href="../pages/cart1.html" class="nav-link">
-                                    <i class='bx bx-cart icon'></i>
+                                    <i class='bx bx-cart icon' ></i>
                                     <span class="link">Cart</span>
                                 </a>
                             </li>
@@ -104,14 +105,14 @@
                     </div>
                     <div class="bottom-content">
                         <li class="list">
-                            <a href="#" class="nav-link">
+                            <a href="../pages/about_us.html" class="nav-link">
                                 <i class='bx bx-happy icon'></i>
                                 <span class="link">About Us</span>
                             </a>
                         </li>
                         <li class="list">
                             <a href="#" class="nav-link">
-                                <i class='bx bx-log-out icon'></i>
+                                <i class='bx bx-log-out icon' ></i>
                                 <span class="link">Log Out</span>
                             </a>
                         </li>
@@ -179,7 +180,7 @@
                 </ul>
             </div>
 
-            <form action="YOUR_BACKEND_URL" method="POST">
+            <form action="../index.html" method="POST">
                 <div class="product-info">
                     <table>
                         <thead>
@@ -213,8 +214,8 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="checkout-button">
-                    <button type="submit">完成結帳</button>
+                <div class="checkout-container">
+                    <input type="submit" class="checkout-button" value="完成結帳">
                 </div>
             </form>
         </div>

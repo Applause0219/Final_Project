@@ -7,8 +7,11 @@
 }
 
 .bgcol {
-    background-image: radial-gradient(#000000 0.5px, #ffffff 0.5px);
-    background-size: 10px 10px;
+    background-image: url(../Images/bg-03.jpg);
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
 }
 
 .login-wrapper {
