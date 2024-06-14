@@ -32,7 +32,7 @@ article{
     /* align-items: center; */
     justify-content: center;
     animation: fade 3s linear 0s;
-    /* width: 5%; */
+    width: 60%;
     /* animation: rightIn 2s linear 0s ; */
 }
 
@@ -41,8 +41,9 @@ article{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: left;
+    width: 100%;
 }
 @keyframes fade {
     from {
@@ -72,7 +73,7 @@ article{
     font-style: normal;
     font-size: 12px;
     /* text-align: left; */
-    width: fit-content;
+    width: 100%;
 }
 
 
