@@ -55,11 +55,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const buyNowButton = document.querySelector('.buy-now');
 
     addToCartButton.addEventListener('click', function() {
-        window.location.href = 'cart1.html';
+        window.location.href = '../pages/cart1.html';
     });
 
     buyNowButton.addEventListener('click', function() {
-        window.location.href = 'cart1.html';
+        window.location.href = '../pages/cart1.html';
     });
 });
 document.addEventListener('DOMContentLoaded', function() {

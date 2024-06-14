@@ -37,6 +37,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     checkoutbtn.addEventListener('click', function(event) {
         event.preventDefault(); // 防止表單提交
-        window.location.href = 'checkpage.html';
+        window.location.href = '../pages/checkpage.html';
     });
 });

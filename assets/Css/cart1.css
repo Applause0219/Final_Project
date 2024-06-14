@@ -8,7 +8,9 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: #ffffff;
+    background-image: radial-gradient(#000000 0.5px, #ffffff 0.5px);
+    background-size: 10px 10px;
 }
 
 .main-content {
