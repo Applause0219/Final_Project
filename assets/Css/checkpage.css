@@ -159,13 +159,14 @@ body {
     align-items: center;
 }
 
-.checkout-button {
+.checkout-container {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 
-.checkout-button button {
+.checkout-button {
     background-color: black;
     color: white;
     border: 1px solid black;
@@ -173,14 +174,13 @@ body {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin: 30px;
 }
 
-.checkout-button button:hover {
+.checkout-button:hover {
     background-color: darkgray;
 }
 
-.checkout-button button:active {
+.checkout-button:active {
     background-color: darkgray;
 }
 
