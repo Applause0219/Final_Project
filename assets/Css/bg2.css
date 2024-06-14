@@ -1,5 +1,6 @@
 .body-background2{
-    background-image: url(../../assets/Images/bg-grass2.svg);
+    background-image: url(../../assets/Images/bg-light1.png);
+    /* background-color: black; */
     background-repeat: no-repeat;  
     background-attachment: fixed;
     background-position: center;

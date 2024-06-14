@@ -16,8 +16,8 @@ article{
     align-items: center;
     justify-content: center;
     width: 50%;
-    margin-top: 22px;
-    margin-bottom: 30px;
+    /* margin-top: 22px; */
+    /* margin-bottom: 30px; */
 
     backdrop-filter: blur(5px);
     box-shadow: 0px 20px 50px rgba(0,0,0,0.15);
@@ -32,7 +32,7 @@ article{
     /* align-items: center; */
     justify-content: center;
     animation: fade 3s linear 0s;
-    /* width: 5%; */
+    width: 60%;
     /* animation: rightIn 2s linear 0s ; */
 }
 
@@ -41,8 +41,9 @@ article{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: left;
+    width: 100%;
 }
 @keyframes fade {
     from {
@@ -72,7 +73,7 @@ article{
     font-style: normal;
     font-size: 12px;
     /* text-align: left; */
-    width: fit-content;
+    width: 100%;
 }
 
 
